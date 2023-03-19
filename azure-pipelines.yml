@@ -10,6 +10,8 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
+  azureSubscription: 'MCAPS-Hybrid-REQ-47541-2022-nayeonkim'
+  appName: 'webappcontainertest0320'
   dockerRegistryServiceConnection: '0a456cc3-c873-4772-86d6-7e88a16dc760'
   imageRepository: 'nykimpythonsamplevscodeflasktutorial'
   containerRegistry: 'tailspinspacegame27045.azurecr.io'

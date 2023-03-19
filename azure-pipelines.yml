@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: '0a456cc3-c873-4772-86d6-7e88a16dc760'
   imageRepository: 'nykimpythonsamplevscodeflasktutorial'
   containerRegistry: 'tailspinspacegame27045.azurecr.io'
-  dockerfilePath: '$(Build.SourcesDirectory)/app/Dockerfile'
+  dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
